@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>window_uchastnik</class>
+ <widget class="QMainWindow" name="window_uchastnik">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>640</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>640</width>
+    <height>484</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>window_uchastnik</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(221, 255, 216);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_uspexUchastnik">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>40</y>
+      <width>480</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>.AppleSystemUIFontMonospaced</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Вы успешно зашли на сайт! Ваша роль - участник. </string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_punctUchastnik">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>100</y>
+      <width>240</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>.AppleSystemUIFontMonospaced</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Выберите нужный пункт:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_viewDataSvoiUch">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>160</y>
+      <width>275</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>.AppleSystemUIFontMonospaced</family>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: 3px solid  rgb(183, 181, 185);
+    border-radius: 10px;
+    background-color: rgb(156, 255, 153);
+}
+QPushButton:hover{
+   background-color: rgb(228, 255, 241);
+}</string>
+    </property>
+    <property name="text">
+     <string>Посмотреть свои данные</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_progressUch">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>160</y>
+      <width>275</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>.AppleSystemUIFontMonospaced</family>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: 3px solid  rgb(183, 181, 185);
+    border-radius: 10px;
+    background-color: rgb(156, 255, 153);
+}
+QPushButton:hover{
+   background-color: rgb(228, 255, 241);
+}</string>
+    </property>
+    <property name="text">
+     <string>Прогресс</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_viewResultsSorev">
+    <property name="geometry">
+     <rect>
+      <x>175</x>
+      <y>250</y>
+      <width>295</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>.AppleSystemUIFontMonospaced</family>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: 3px solid  rgb(183, 181, 185);
+    border-radius: 10px;
+    background-color: rgb(156, 255, 153);
+}
+QPushButton:hover{
+   background-color: rgb(228, 255, 241);
+}</string>
+    </property>
+    <property name="text">
+     <string>Посмотреть результаты соревнований</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
